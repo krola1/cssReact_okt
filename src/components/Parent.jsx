@@ -4,7 +4,7 @@ export default function Parent() {
   return (
     <div className="wrapper">
       <div className="text-color">
-        <h1>Parent</h1>
+        <h1 class="animate__animated animate__bounceOut">Parent</h1>
         <Child />
       </div>
     </div>
